@@ -35,13 +35,13 @@ int main(void)
 
 	/* Delete the whole graph */
 	graph_delete(graph);
-	graph = NULL;          /* avoid dangling pointer */
+	graph = NULL;
 
 	printf("Graph successfully deleted.\n");
-	/* After this point the graph is gone.
-	 * You can run the program under valgrind to confirm
-	 * there are no memory leaks:
-	 *   valgrind ./3-graph_delete
+	/*
+	 * After this point the graph is gone. You can run the program under
+	 * Valgrind to confirm there are no memory leaks:
+	 * valgrind ./3-graph_delete
 	 */
 
 	return (EXIT_SUCCESS);

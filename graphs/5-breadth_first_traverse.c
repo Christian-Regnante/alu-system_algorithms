@@ -22,6 +22,7 @@ static int bfs_init(const graph_t *graph, vertex_t ***queue,
 	return (0);
 }
 
+
 /**
  * bfs_free - Free BFS helper arrays
  * @queue: BFS queue

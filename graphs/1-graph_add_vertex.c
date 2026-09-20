@@ -22,6 +22,7 @@ static int content_exists(const vertex_t *head, const char *str)
 	return (0);
 }
 
+
 /**
  * create_vertex - Allocates and initializes a new vertex
  * @str: Content string (will be duplicated)

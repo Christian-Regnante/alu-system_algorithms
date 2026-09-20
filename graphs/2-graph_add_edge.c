@@ -27,6 +27,7 @@ static int link_vertex(vertex_t *src, vertex_t *dst)
 	return (0);
 }
 
+
 /**
  * graph_add_edge - adds an edge between two vertices to an existing graph
  * @graph: graph_t where we add vertex_t
