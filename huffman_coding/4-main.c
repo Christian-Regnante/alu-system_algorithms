@@ -37,7 +37,8 @@ int print_int(char *buffer, void *data)
 	return (length);
 }
 
-void binary_tree_print(const binary_tree_node_t *heap, int (*print_data)(char *, void *));
+void binary_tree_print(const binary_tree_node_t *heap,
+		       int (*print_data)(char *, void *));
 
 /**
  * main - Entry point

@@ -12,7 +12,8 @@ void free_binary_tree_node(node_t *node, void (*free_data)(void *))
 	{
 		free_binary_tree_node(node->left, free_data);
 		free_binary_tree_node(node->right, free_data);
-		if (free_data) free_data(node->data);
+		if (free_data)
+			free_data(node->data);
 		free(node);
 	}
 }

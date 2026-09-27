@@ -3,7 +3,8 @@
 #include "heap.h"
 #include "huffman.h"
 
-void binary_tree_print(const binary_tree_node_t *heap, int (*print_data)(char *, void *));
+void binary_tree_print(const binary_tree_node_t *heap,
+		       int (*print_data)(char *, void *));
 
 /**
  * nested_print - Prints a symbol structure stored in a nested node
